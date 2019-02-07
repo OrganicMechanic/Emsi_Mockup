@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tab { margin-left: 40px; }
+
+.nospacing {line-height: 0px;
+            margin-left: 40px; }
+
+.boxed {
+  border: 1px solid grey;
+}
+
+/* Create three equal columns that floats next to each other */
+.columnleft {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 150px; 
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-left: 40px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+.columnright {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 150px; 
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 150px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+hr {
+  size: 1px solid grey;
+  width: 97%;
+}
